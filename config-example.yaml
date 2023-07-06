@@ -1,0 +1,8 @@
+ListenAddr: ":53"
+RemoteDns: "1.1.1.1:53"
+Record:
+  A:
+    "test1.test" : "127.0.0.1"
+    "test2.test" : "127.0.0.1"
+  MX:
+    "my-mail.test" : "my-mail.local"
